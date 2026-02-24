@@ -32,9 +32,9 @@ sudo certbot certonly --manual --preferred-challenges=dns --email admin@example.
 certbot certonly --non-interactive --agree-tos --email <your-email-address> --preferred-challenges dns --authenticator dns-porkbun --dns-porkbun-credentials </path/to/your/porkbun.ini> --dns-porkbun-propagation-seconds 60 -d "*.example.com" -d "example.com"
 ```
 
-# PPA for apache (Optional)
+# PPA for nginx (Optional)
 ```
-sudo add-apt-repository ppa:ondrej/apache2
+sudo add-apt-repository ppa:ondrej/nginx
 ```
 
 # PPA for php (Optional)
