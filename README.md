@@ -103,7 +103,7 @@ export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 
 # Nodejs
 ```
-curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash - && sudo apt install -y nodejs
+curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash - && sudo apt install -y nodejs
 ```
 
 
@@ -112,9 +112,9 @@ curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash - && sudo apt in
 sudo apt install software-properties-common -y && sudo apt-key adv --fetch-keys 'https://mariadb.org/mariadb_release_signing_key.asc'
 ```
 
-# Mariadb 11.2 add repository
+# Mariadb 11.8 add repository
 ```
-sudo add-apt-repository 'deb [arch=amd64,arm64,ppc64el] http://sfo1.mirrors.digitalocean.com/mariadb/repo/11.2/ubuntu '$(lsb_release -cs)' main'
+sudo add-apt-repository 'deb [arch=amd64,arm64,ppc64el] http://sfo1.mirrors.digitalocean.com/mariadb/repo/11.8/ubuntu '$(lsb_release -cs)' main'
 ```
 
 # Instalar mariabd
